@@ -1,0 +1,17 @@
+time1 = time.time() # Store time lag between epoch & now in time1
+print("Starting ") # Display the time lag from epoch 01-jan-1970
+print("Epoch  time (in seconds):", time1) #and now (in Seconds)
+print()
+count = 0
+n = 0
+while n < 10000000: # Process loop to compute
+count = count + n # sum of numbers from 1 to 10000000
+n = n +1 # end of loop
+print ("Sum Value  1+2+3+4..10000000   ", count) #print the computation result
+time2 = time.time() #Store time lag between epoch& now in time2
+print ()
+print("After the end of processing")
+print("Epoch time ", time2) # Display the elapsed time post processing
+#Compute the difference and display it
+print()
+print("Elapsed time for computing 1-10000000 nos " , time2 - time1, " seconds")
