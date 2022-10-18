@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://css.gg/search.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="data">
+            <input type="text" name="cityName" id="cityName" placeholder="Search">
+            <button id="searchBtn">
+                <img src="search.png" alt="search" id="searchIcon">
+            </button>
+        </div>
+
+        <div class="weatherData">
+            <div class="weatherIcon">
+                <img src="" alt="">
+            </div>
+            <div class="weatherInfo">
+                <h2 id="city"></h2>
+                <h1 id="temp"></h1>
+                <p id="description"></p>
+                <p id="humidity"></p>
+                <p id="wind"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

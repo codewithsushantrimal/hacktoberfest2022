@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(34, 34, 34, 0.903);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cityName {
+    margin: 5px 20px 5px 20px;
+    padding: 5px 10px;
+    height: 30px;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+
+#cityName::placeholder {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    background-color: rgba(46, 44, 44, 0.086);
+}
+
+#searchBtn {
+    margin: 5px 20px 5px 20px;
+    height: 42px;
+    width: 42px;
+    padding: 5px;
+    border-radius: 100px;
+    border: none;
+}
+
+.weatherInfo {
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 400;
+}
